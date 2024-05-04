@@ -8,9 +8,10 @@
 </head>
 
 <body>
-    <a href="index.php">Home</a>
-    <a href="bmi.php">BMI</a>
-    <a href="bangun_segitiga.php">Luas Segitiga</a>
+<?php
+require('navbar/kepala.php');
+?>
+    <p># Keliling Segitiga</p>
 
     <form action="hasil_bangun.php" method="post">
 

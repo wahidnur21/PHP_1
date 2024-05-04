@@ -23,6 +23,9 @@
 </head>
 
 <body>
+<?php
+require('navbar/kepala.php');
+?>
     <?php
     $nama = $_POST["nama"];
     $tinggi = $_POST["tinggi"] / 100;

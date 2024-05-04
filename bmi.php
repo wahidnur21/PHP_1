@@ -9,12 +9,10 @@
 </head>
 
 <body>
-
-    <a href="index.php">Home</a>
-    <a href="bmi.php">BMI</a>
-    <a href="bangun_segitiga.php">Luas Segitiga</a>
-    <a href="keliling_segitiga.php">Keliling Segitiga</a>
-
+<?php
+require('navbar/kepala.php');
+?>
+<p> ~{ PENGHITUNGAN BMI }~</p>
     <form action="hasil.php" method="post">
         <div>
             <label for="nama">Masukkan Nama</label>

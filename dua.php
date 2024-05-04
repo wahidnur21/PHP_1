@@ -25,9 +25,9 @@ $array_associative = [
 </head>
 
 <body>
-
-    <a href="index.php">Home</a>
-    <a href="bmi.php">BMI</a>
+<?php
+require('navbar/kepala.php');
+?>
     <a href="bangun_segitiga.php">Luas Segitiga</a>
     <a href="keliling_segitiga.php">Keliling Segitiga</a>
 

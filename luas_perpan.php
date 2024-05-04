@@ -8,6 +8,10 @@
 </head>
 
 <body>
+<?php
+require('navbar/kepala.php');
+?>
+<p># Luas Persegi Panjang</p>
     <form action="hasil_bangun.php" method="post">
         <div>
             <label for="panjang">Masukkan Panjang PerPan</label>

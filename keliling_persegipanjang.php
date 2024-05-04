@@ -8,6 +8,9 @@
 </head>
 
 <body>
+<?php
+require('navbar/kepala.php');
+?>
     <form action="hasil_bangun.php" method="post">
         <div>
             <label for="panjangK">Masukkan Panjang PerPan</label>

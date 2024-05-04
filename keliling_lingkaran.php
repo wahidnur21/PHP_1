@@ -8,6 +8,10 @@
 </head>
 
 <body>
+<?php
+require('navbar/kepala.php');
+?>
+<p># Keliling Lingkaran</p>
     <form action="hasil_bangun.php" method="post">
         <div>
             <label for="r1">Masukkan Jari-Jari (cm)</label>

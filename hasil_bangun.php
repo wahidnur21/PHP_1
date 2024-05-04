@@ -9,6 +9,9 @@
 </head>
 
 <body>
+<?php
+require('navbar/kepala.php');
+?>
     <?php
 
     if (isset($_POST['tinggi']) && $_POST['alas']) {

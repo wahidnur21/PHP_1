@@ -8,6 +8,10 @@
 </head>
 
 <body>
+<?php
+require('navbar/kepala.php');
+?>
+<p># Keliling Persegi</p>
     <form action="hasil_bangun.php" method="post">
         <div>
             <label for="sisiK">Masukkan Sisi Persegi</label>
