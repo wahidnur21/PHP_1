@@ -70,7 +70,7 @@
     $alamat = "Jl. Panca Upaya Dolopo Madiun";
     $citacita = "pengusaha suksess";
     $jkel = "laki-laki";
-    $status = "Single";
+    $status = "Singel";
     $agama = "Islam";
   
 
